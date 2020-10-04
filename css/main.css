@@ -1,0 +1,154 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+    background: url('../img/vida-sana.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: .5px .5px #000000;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+.home {
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.home-container {
+    max-width: 650px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home-clock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin: 4rem 0 2rem 0;
+}
+
+.home-clock-time {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #E0AA14;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.home-clock-time span {
+    display: block;
+}
+
+.home-logo {
+    width: 80%;
+    max-width: 350px;
+}
+
+.home-logo img {
+    width: 100%;
+}
+
+.home-slogan {
+    text-align: center;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: .5px .5px #000000;
+}
+
+.text {
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .home-logo {
+        width: 70%;
+        max-width: 350px;
+    }
+
+    .home-slogan {
+        font-size: 0.8rem;
+    }
+
+    .time {
+        font-weight: bold;
+        font-size: 2rem;
+        text-shadow: .5px .5px #000000;
+    }
+
+    .home-clock-time {
+        width: 70px;
+        height: 70px;
+        max-width: 70px;
+        max-height: 70px;
+        margin: 0 0.3rem;
+    }
+
+    .text {
+        font-size: 0.5rem;
+    }
+}
